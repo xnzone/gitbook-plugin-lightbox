@@ -69,9 +69,7 @@ module.exports = {
       var $ = cheerio.load(_page.content);
       pageUuid = uuid();
       $('img').each(function (index, img) {
-        // console.log($(img))
         if ($(img).attr('title') != "no-lightbox") {
-          console.log("lightbox")
           var target = $(img);
           target.replaceWith(generateLightBoxByElement(target));
         }
