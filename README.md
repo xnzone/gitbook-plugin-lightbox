@@ -1,5 +1,5 @@
 # gitbook-plugin-lightbox
- this repository is forked from [gitbook-plugin-lightbox](https://github.com/vongola12324/gitbook-plugin-lightbox.git). but the origin repository can not control some image don't use lightbox, i add an attr in <img>, so that i can ignore lightbox according attr value
+ this repository is forked from [gitbook-plugin-lightbox](https://github.com/vongola12324/gitbook-plugin-lightbox.git). but the origin repository can not control some image don't use lightbox, i add an attr in `<img>`, so that i can ignore lightbox according attr value
 
 ## Requirement
 -  Gitbook >= 3.0.0
